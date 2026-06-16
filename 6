@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Máquina de Frases</title>
+</head>
+<body>
+<h1>Máquina de Frases</h1>
+<button onclick="frase()">
+Gerar frase
+</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function frase() {
+    let frases = [
+      "Rapaziada, eu tava com uma loira, uma morena e uma ruiva... Sabe o que eu fiz? Mandei a bola lá na gavetaaaaa! Golaço do Marcelinhoooo! Vem com o pai!"
+    ];
+    let sorteio = Math.floor(Math.random() * frases.length);
+    alert(frases[sorteio]);
+}
