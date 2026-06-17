@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini caixa eletrônico</title>
+</head>
+<body>
+<h1>Mini caixa eletrônico</h1>
+<button onclick="consultarSaldo()">Consultar saldo</button>
+<button onclick="depositar()">Depositar</button>
+<button onclick="sacar()">Sacar</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+let saldo = 1000
+function consultarSaldo() {
+    alert("Seu saldo é R$ " + saldo)
+}
+function depositar() {
+    let valor = Number(prompt("Digite o valor do depósito"))
+    saldo = saldo + valor
+    alert("Depósito realizado\nNovo saldo: R$ " + saldo)
+}
+function sacar(){
+    let valor = Number(prompt("Digite o valor do saque"))
+    if (valor <= saldo){
+        saldo = saldo - valor
+        alert("Saque realizado\nNovo saldo R$ " + saldo)
+    } else {
+        alert("Saldo insuficiente")
+    }
+}
