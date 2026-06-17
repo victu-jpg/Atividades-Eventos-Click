@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Máquina de memes</title>
+</head>
+<body>
+<h1>Máquina de memes</h1>
+<button id="btn">Botão</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn").onclick = function(){
+    alert("5 reais = ALIMENTO = CACHAÇA");
+}
