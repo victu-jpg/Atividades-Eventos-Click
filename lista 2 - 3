@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Botão curioso</title>
+</head>
+<body>
+<h1>Botão curioso</h1>
+<button onclick="clicou()">Botão 1</button>
+<button ondblclick="cliqueDuplo()">Botão 2</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function clicou(){
+    alert("Você clicou")}
+function cliqueDuplo(){
+    alert("Clique duplo detectado")}
