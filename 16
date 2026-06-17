@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Detector de mentira</title>
+</head>
+<body>
+<h1>Detector de mentira</h1>
+<button id="btn">Botão</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn").onclick = function(){
+    alert("Tem certeza que está falando a verdade?");
+}
