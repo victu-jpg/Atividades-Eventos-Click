@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Botão assombrado</title>
+</head>
+<body>
+<h1>Botão assombrado</h1>
+<button id="btn11">Passe o mouse</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn11").onmouseover = function() {
+    alert("Oi...não olhe para trás");
+}
