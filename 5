@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Soltou, perdeu</title>
+<title>Cofre secreto</title>
 </head>
 <body>
-<h1>Soltou, perdeu</h1>
-<button onmouseup="soltou()">
-Segure aqui
-</button>
+<h1>Cofre secreto</h1>
+<button id="cofre">Abrir Cofre Secreto</button>
 <script src="script.js"></script>
 </body>
 </html>
 
-function soltou(){
-    alert("Soltou o mouse, perdeu hihihih");
+document.getElementById("cofre").onmousedown = function(){
+    alert("Você encontrou o cofre secreto");
 }
