@@ -9,3 +9,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+document.getElementById("btn").onmouseover = function(){
+    alert("Você realmente achou que eu era um botão normal?")
+}
