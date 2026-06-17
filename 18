@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Botão troll</title>
+</head>
+<body>
+<h1>Botão troll</h1>
+<button id="botao1">Botão 1</button>
+<button id="botao2">Botão 2</button>
+<button id="botao3">Botão 3</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("botao1").onclick = function(){
+    alert("Você clicou")}
+document.getElementById("botao2").onmouseover = function(){
+    alert("O mouse passou por aqui")}
+document.getElementById("botao3").onmouseout = function(){
+    alert("Você saiu do botão")}
