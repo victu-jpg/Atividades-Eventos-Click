@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Botão carente</title>
+</head>
+<body>
+<h1>Botão carente</h1>
+<button id="btn">Passe o mouse</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn").onmouseout = function() {
+    alert("OU, por que você tirou o mouse de mim? Não me deixe sozinho aqui");
+}
