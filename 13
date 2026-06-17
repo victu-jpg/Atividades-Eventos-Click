@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scanner hacker</title>
+</head>
+<body>
+<h1>Scanner hacker</h1>
+<button id="btn">Botão</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn").onmousedown = function(){
+    alert("Scanner secreto iniciado");
+}
