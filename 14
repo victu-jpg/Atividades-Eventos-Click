@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Soltou o controle</title>
+</head>
+<body>
+<h1>Soltou o controle</h1>
+<button id="btn">Botão</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+document.getElementById("btn").onmouseup = function(){
+    alert("Você soltou o controle");
+}
