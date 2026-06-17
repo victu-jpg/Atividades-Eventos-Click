@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Painel de mensagens</title>
+</head>
+<body>
+<h1>Painel de mensagens</h1>
+<button onclick="bomdia()">Bom Dia</button>
+  <button onclick="boatarde()">Boa Tarde</button>
+ <button onclick="boanoite()">Boa Noite</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function bomdia(){
+    alert("Bom dia")}
+function boatarde(){
+    alert("Boa tarde")}
+function boanoite(){
+    alert("Boa noite")}
