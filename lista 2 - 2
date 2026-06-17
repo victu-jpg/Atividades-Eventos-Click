@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Central de operações</title>
+</head>
+<body>
+<h1>Central de operações</h1>
+<button onclick="somar()">Somar</button>
+<button onclick="multiplicar()">Multiplicar</button>
+<button onclick="comparar()">Comparar</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function somar() {
+    let num1 = Number(prompt("Digite o primeiro número"))
+    let num2 = Number(prompt("Digite o segundo número"))
+    let resultado = num1 + num2;
+    alert("O total é " + resultado)}
+function multiplicar() {
+    let num1 = Number(prompt("Digite o primeiro número"))
+    let num2 = Number(prompt("Digite o segundo número"))
+    let resultado = num1 * num2
+    alert("O total é " + resultado)
+}
+function comparar(){
+    let num1 = Number(prompt("Digite o primeiro número"))
+    let num2 = Number(prompt("Digite o segundo número"))
+    if (num1 > num2){
+        alert("O maior número é " + num1)
+    } else if (num2 > num1){
+        alert("O maior número é " + num2)
+    }else{
+        alert("Os números são iguais")
+    }
+}
