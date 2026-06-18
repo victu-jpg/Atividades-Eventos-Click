@@ -13,11 +13,11 @@
 </html>
 
 function azul(){
-    alert("- 10 pontos")
+    alert("Você perdeu 10 pontos")
 }
 function amarelo(){
-    alert("+ 50 pontos")
+    alert("Você ganhou 50 pontos")
 }
 function verde(){
-    alert("Fase bônus")
+    alert("Bônus surpresa!")
 }
