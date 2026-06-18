@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Controle de notas</title>
+</head>
+<body>
+<h1>Controle de notas</h1>
+<button onclick="adicionarNota()">Adicionar nota</button>
+<button onclick="calcularMedia()">Calcular média</button>
+<button onclick="mostrarMaiorNota()">Mostrar maior nota</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+let notas = []
+function adicionarNota(){
+    let nota = Number(prompt("Digite uma nota"))
+    notas.push(nota)
+}
+function calcularMedia(){
+    let soma = 0
+    for (let i = 0; i < notas.length; i++){
+        soma += notas[i]
+    }
+    let media = soma / notas.length
+    alert("Média - " + media)
+}
+function mostrarMaiorNota(){
+    let maior = notas[0]
+    for (let i = 1; i < notas.length; i++){
+        if (notas[i] > maior){
+            maior = notas[i]
+        }
+    }
+    alert("Maior nota - " + maior)
+}
