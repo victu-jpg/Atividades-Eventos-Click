@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jogo dos botões</title>
+</head>
+<body>
+<h1>Jogo dos botões</h1>
+<button style="background: blue;color: black;" onclick="azul()">Azul</button>
+<button style="background: yellow;color: black;" onclick="amarelo()">Amarelo</button>
+<button style="background: green;color: black;" onclick="verde()">Verde</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function azul(){
+    alert("- 10 pontos")
+}
+function amarelo(){
+    alert("+ 50 pontos")
+}
+function verde(){
+    alert("Fase bônus")
+}
