@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arena dos eventos</title>
+</head>
+<body>
+<h1>Arena dos eventos</h1>
+<button onclick="evento1()">Botão 1</button>
+<button ondblclick="evento2()">Botão 2</button>
+<button onmouseover="evento3()">Botão 3</button>
+<button onmouseout="evento4()">Botão 4</button>
+<button onmousedown="evento5()">Botão 5</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+function evento1(){
+    alert("Você clicou no botão 1")
+}
+function evento2(){
+    alert("Duplo clique no botão 2")
+}
+function evento3(){
+    alert("Mouse passou sobre o botão 3")
+}
+function evento4(){
+    alert("Mouse saiu do botão 4")
+}
+function evento5(){
+    alert("Botão 5 pressionado")
+}
