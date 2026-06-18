@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lista de números</title>
+</head>
+<body>
+<h1>Lista de números</h1>
+<button onclick="adicionarNumero()">Adicionar número</button>
+<button onclick="mostrarVetor()">Mostrar vetor</button>
+<button onclick="mostrarSoma()">Mostrar soma</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+let numeros = [];
+function adicionarNumero(){
+    let numero = Number(prompt("Digite um número:"))
+    numeros.push(numero)
+}
+function mostrarVetor(){
+    alert(numeros.join(", "))
+}
+function mostrarSoma(){
+    let soma = 0
+    for (let i = 0; i < numeros.length; i++){
+        soma += numeros[i]
+    }
+    alert("Soma -  " + soma)
+}
